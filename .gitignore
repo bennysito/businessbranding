@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.*
+*.local
+*.log
+vite-dev.log
+vite-dev.err.log
+serve-dist.log
+serve-dist.err.log
+
+.DS_Store
+Thumbs.db
+
+coverage/
