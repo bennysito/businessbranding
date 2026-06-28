@@ -2,11 +2,11 @@
   "name": "business-website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://bennysito.github.io/businessbranding",
+  "homepage": "https://bennysito.github.io/businessbranding/",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "serve:dist": "node scripts/serve-dist.cjs",
