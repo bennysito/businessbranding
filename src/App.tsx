@@ -25,9 +25,6 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white font-sans text-ink">
-      <div className="bg-gold px-4 py-2 text-center text-sm font-bold text-ink">
-        Website loaded successfully
-      </div>
       <Navbar activePage={activePage} onNavigate={navigate} />
       <main>{renderPage(activePage, navigate)}</main>
       <Footer onNavigate={navigate} />
